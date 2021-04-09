@@ -12,7 +12,7 @@ navButt.addEventListener("click", ()=>{
   cnt++;
   
   if(cnt%2){
-    nav.style.display='block'
+    nav.style.display='block' 
     body.style.overflow='hidden'
   }
   else{
