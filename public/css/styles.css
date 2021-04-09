@@ -631,7 +631,7 @@ footer{
         background-color: var(--accent);
         opacity: 90%;
         right: 0;
-        top: 40%;
+        top: 0;
         padding: 20px;
     }
     #nav-list{
@@ -678,16 +678,6 @@ footer{
         left: 80%;
         bottom: 50%;
         transform: translateY(80%)  ;
-        width: 100px;
-        
-        /* position: absolute;
-    display: flex;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    margin-bottom: 5%; */
-    }
-    #profiles a{
         width: 100px;
     }
 }
