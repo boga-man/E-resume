@@ -1,0 +1,23 @@
+{
+  "name": "myProfile",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "npm run lite",
+    "lite": "lite-server",
+    "start": "node index.js",
+    "dev": "nodemon --watch ../ -e js,hbs,css src/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.6.1",
+    "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "hbs": "^4.1.1"
+  }
+}
