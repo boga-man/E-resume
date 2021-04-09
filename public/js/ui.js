@@ -8,11 +8,22 @@ var cnt=0;
 let body = document.querySelector('body');
 let nav = document.querySelector('nav');
 let navButt = document.getElementById('nav-button');
+
+window.addEventListener('resize', function(){
+  if(nav.style.display==='none' && window.innerWidth>600){
+    nav.style.display='block'
+  }
+  if(nav.style.display==='block' && window.innerWidth<600){
+    nav.style.display='none'
+  }
+})
+
+
 navButt.addEventListener("click", ()=>{
   cnt++;
-  
+
   if(cnt%2){
-    nav.style.display='block' 
+    nav.style.display='block'
     body.style.overflow='hidden'
   }
   else{
