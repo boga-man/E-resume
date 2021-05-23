@@ -52,17 +52,17 @@ const expCount = positions.length;
 // for education
 const almamater = ["National Institute of Technology, Warangal", "Narayana Junior college, Hyderabad", "Sri Sai Vijetha High School, Tadipatri"]
 const eduTime = ["2019-Present", "2017-2019", "2012-2017"]
-const eduDesc = ["Bachelors degree in Computer Science & Engineering. Current CGPA is 9.05", "Completed 11th & 12th standards in MPC Stream and secured 97% of marks in state board exams", "Completed 10th standard with a GPA 10"]
+const eduDesc = ["Bachelors degree in Computer Science & Engineering. Current CGPA is 9.05", "Completed 11th & 12th standards in MPC Stream and secured 97.6% of marks in state board exams", "Completed 10th standard with a GPA 10"]
 const eduCount = almamater.length
 // for projects
-const projNames = ["SUMMER", "BuddiesChat", "DCGAN", "Weather App"]
-const projLinks = ["", "https://buddieschat.herokuapp.com/", "", "https://manoj-weatherapp.herokuapp.com/"]
-const projTime = ["August 2019 to Present", "March 2021", "July 2021", "January 2021"]
-const projDesc = ["Worked on providing User Experience and lead the team for creating Android and iOS apps", "Basic web app for creating chat rooms made using Node.JS and Sockets. It is done as part of NodeJS course.", "Made a DCGAN using tensorflow on fashion MNIST dataset", "It is a webapp that uses a weather api gives weather details at any place entered"]
+const projNames = ["Bukket","Classroom Management Database design", "BuddiesChat", "Task Mananger API", "Weather App", "DCGAN", "SUMMER"]
+const projLinks = ["","", "https://buddieschat.herokuapp.com/", "", "https://manoj-weatherapp.herokuapp.com/", "", ""]
+const projTime = ["May 2021 to Present","April 2021", "March 2021", "March 2021", "March 2021", "July 2020", "August 2019 to Present"]
+const projDesc = ["It is a resource management web app that facilitates clustering, organising and sharing of resources(links of resources),all at one place.\n\nTech & Tools used - NodeJS, MongoDB Atlas, Docker, Ngnix, GoogleAuth2.0", "It is a normalised database that can be utilised by apps like Google Classroom to keep track of attendance, assignment submissions, and test scores of students. Classrooms can be created by teachers and students can join them.", "Basic web app for creating chat rooms made using Node.JS and Sockets. Done as part of NodeJS course.", "It is a REST API made using NodeJS that works as a basic task management app. Done as part of NodeJS course", "It is a webapp that uses a weather api gives weather details at any place entered. Done as part of a NodeJS course", "Made a DCGAN using tensorflow on fashion MNIST dataset", "Worked on providing User Experience and lead the team for creating Android and iOS apps"]
 const projCount = projNames.length
 // for skills
-const skillNames = ["C++","Java","JavaScript","Python","HTML & CSS", "UI/UX Design","DBMS","OOP","DSA"]
-const percent = ["85","70","70","65","85","80","80","75","85"]
+const skillNames = ["C++","Java","JavaScript","Python","HTML & CSS","DSA","OOP","DBMS", "UI/UX Design"]
+const percent = ["85","70","70","60","85","85","75","80","70"]
 const skillCount = skillNames.length
 
 
