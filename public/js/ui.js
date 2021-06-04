@@ -56,7 +56,7 @@ const eduDesc = ["Bachelors degree in Computer Science & Engineering. Current CG
 const eduCount = almamater.length
 // for projects
 const projNames = ["Bukket","Classroom Management Database design", "BuddiesChat", "Task Mananger API", "Weather App", "DCGAN", "SUMMER"]
-const projLinks = ["","", "https://buddieschat.herokuapp.com/", "", "https://manoj-weatherapp.herokuapp.com/", "", ""]
+const projLinks = ["https://www.bukket.cloud/","https://drive.google.com/drive/folders/1p21RLm_N83csfLC9mffjJDIe4b0Uz2xa?usp=sharing", "https://buddieschat.herokuapp.com/", "", "https://manoj-weatherapp.herokuapp.com/", "", ""]
 const projTime = ["May 2021 to Present","April 2021", "March 2021", "March 2021", "March 2021", "July 2020", "August 2019 to Present"]
 const projDesc = ["It is a resource management web app that facilitates clustering, organising and sharing of resources(links of resources),all at one place.\n\nTech & Tools used - NodeJS, MongoDB Atlas, Docker, Ngnix, GoogleAuth2.0", "It is a normalised database that can be utilised by apps like Google Classroom to keep track of attendance, assignment submissions, and test scores of students. Classrooms can be created by teachers and students can join them.", "Basic web app for creating chat rooms made using Node.JS and Sockets. Done as part of NodeJS course.", "It is a REST API made using NodeJS that works as a basic task management app. Done as part of NodeJS course", "It is a webapp that uses a weather api gives weather details at any place entered. Done as part of a NodeJS course", "Made a DCGAN using tensorflow on fashion MNIST dataset", "Worked on providing User Experience and lead the team for creating Android and iOS apps"]
 const projCount = projNames.length
